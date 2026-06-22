@@ -26,6 +26,18 @@
 
 ---
 
+## 🚀 Platform Setup Guides
+
+### Katabump Setup
+1. Go to [katabump.com](https://katabump.com)
+2. Create a new Node.js project
+3. Upload the repo files or connect GitHub
+4. Set your environment variables
+5. Set start command to `node src/index.js`
+
+
+### Method 2: Terminal
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -175,31 +187,21 @@ KING_BLESS_MD_BOT/
 ├── package.json
 └── README.md
 ```
-
 ---
 
-## ⚙️ Stack
+## ⚙️ Environment Variables
 
-| Package | Purpose |
-|---------|---------|
-| `@whiskeysockets/baileys` | WhatsApp Web API |
-| `node-cache` | Anti-spam caching |
-| `libphonenumber-js` | Phone number parsing |
-| `moment-timezone` | Time/timezone handling |
-| `node-youtube-music` | YouTube Music search |
-| `performance-now` | High-res timing |
-| `pino` | Fast logging |
-| `fluent-ffmpeg` | Media conversion |
-| `gtts` | Text-to-Speech |
-| `qrcode` | QR code generation |
-| `qrcode-terminal` | Terminal QR display |
-| `adm-zip` | ZIP handling |
-| `axios` | HTTP requests |
-| `chalk` | Terminal colors |
-| `dotenv` | Environment config |
-| `express` | Health check server |
-| `form-data` | Multipart form data |
-| `fs-extra` | Enhanced file system |
+| Variable | Required | Description |
+|---|---|---|
+| `SESSION_ID` | ✅ | Your WhatsApp session (from pair site) |
+| `OWNER_NUMBER` | ✅ | Your number with country code e.g. `2348012345678` |
+| `BOT_NAME` | ❌ | Bot name (default: `KINGSLEY-XMD`) |
+| `PREFIX` | ❌ | Command prefix (default: `.`) |
+| `TIMEZONE` | ❌ | Timezone (default: `Africa/Lagos`) |
+| `AUTO_READ` | ❌ | Auto read messages (default: `true`) |
+| `AUTO_TYPING` | ❌ | Show typing indicator (default: `true`) |
+| `ANTI_SPAM` | ❌ | Enable anti-spam (default: `true`) |
+| `WARN_COUNT` | ❌ | Warnings before kick (default: `3`) |
 
 ---
 
@@ -209,7 +211,8 @@ MIT License — see [LICENSE](LICENSE)
 
 ---
 
-## 👑 Author
+## 👑 Developer 
+**KINGSLEY-XMD** — Built with ❤️
 
 **KING BLESS** — KING BLESS MD BOT
 
