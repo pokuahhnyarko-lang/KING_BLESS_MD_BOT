@@ -5,8 +5,8 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)](https://nodejs.org)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Bot-brightgreen)](https://github.com)
-
----
+[![FORK REPOSITORY]
+(https://github.com/pokuahhnyarko-lang/KING_BLESS_MD_BOT.git---)](https://github.com)
 
 ## ✨ Features
 
